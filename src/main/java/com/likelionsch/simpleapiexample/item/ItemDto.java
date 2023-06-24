@@ -1,8 +1,10 @@
 package com.likelionsch.simpleapiexample.item;
 
+import lombok.Builder;
 import lombok.Data;
 
 @Data
+@Builder
 public class ItemDto {
 
     private String name;
